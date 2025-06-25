@@ -138,9 +138,9 @@ export default function Precios() {
         <section className="py-20 px-4 bg-gray-100">
             <div className="max-w-5xl mx-auto">
                 {/* Header */}
-                <div className="text-center mb-10">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black leading-tight">
-                        The biggest bang, binge, and blast for your buck.
+                <div className="max-w-3xl mx-auto text-center mb-16">
+                    <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-7xl">
+                        ¿Cómo puedes trabajar con nosotros?
                     </h2>
                 </div>
 
