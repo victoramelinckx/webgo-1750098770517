@@ -79,7 +79,7 @@ const NavbarScroll = ({
 }) => {
   return (
     <nav
-      className={`sticky z-50 flex justify-center items-center transition-all duration-700 w-full bg-white shadow-md h-[4.5rem] -mt-[4.5rem] ${className}`}
+      className={`sticky z-50 flex justify-center items-center transition-all duration-700 w-full bg-white/80 backdrop-blur-xl border-b border-slate-900/10 h-[4.5rem] -mt-[4.5rem] ${className}`}
     >
       {children}
     </nav>

@@ -7,6 +7,8 @@ import Pasos from "@/components/Pasos";
 import VideosTestimonios from "@/components/VideosTestimonios";
 import Precios from "@/components/Precios";
 import { Faq } from "@/components/Faq";
+import TestimonialsSection from "@/components/Testimonios";
+import Cta from "@/components/Cta";
 
 export default function Home() {
   const howData = {
@@ -56,7 +58,9 @@ Software a medida: automatiza y crece tu empresa." cta1="Obten tu Sitio Web" />
       <Pasos />
       <Precios />
       <VideosTestimonios />
+      <TestimonialsSection />
       <Faq faqs={faqs} />
+      <Cta />
       <Footer />
     </main>
   );
